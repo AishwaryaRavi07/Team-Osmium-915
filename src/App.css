@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#video {
+  border: 1px solid #999;
+  width: 98%;
+  max-width: 860px;
+}
+
+.button {
+  background-color: #3498db; /* Blue background color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove default text underline */
+  display: inline-block; /* Make the button an inline block */
+  margin-left: auto;
+  display: block;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* Style for the button on hover */
+.button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}

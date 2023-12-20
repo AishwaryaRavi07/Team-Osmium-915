@@ -1,0 +1,51 @@
+{
+  "name": "websdk-component-demo",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "@zoom/meetingsdk": "3.0.0",
+    "jsrsasign": "^10.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "3.5.0"
+  },
+  "scripts": {
+    "preinstall": "npx force-resolutions || echo 1",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/jsrsasign": "^10.5.12",
+    "@types/lodash": "^4.14.202",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "copy-webpack-plugin": "11.0.0",
+    "customize-cra": "1.0.0",
+    "react-app-rewired": "2.2.1",
+    "sass": "^1.69.5",
+    "sass-loader": "13.3.2",
+    "typescript": "4.9.5",
+    "write-file-webpack-plugin": "4.5.1"
+  },
+  "resolutions": {
+    "nth-check": "2.1.1",
+    "postcss": "8.4.31"
+  }
+}
