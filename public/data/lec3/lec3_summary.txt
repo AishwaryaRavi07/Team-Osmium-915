@@ -1,0 +1,19 @@
+A summary of the main topics and concepts in the video on statistical tests, including Z test, t-test,
+confidence intervals, significance level, and alternate hypothesis.
+Z Test: A statistical test used to determine whether a coin or die is biased or not, calculating the
+probability of successes and failures and comparing them to see if there is any significant difference
+between the two.
+Direct Formula: The direct formula for Z test is X minus NP divided by square root of NP, where X is
+the number of successes, N is the number of trials, P is the probability of success, and P is the
+probability of failure.
+Observed Successes: In this video, the observed successes are 400 times, which means that the
+head turned up 400 times out of 500 times.
+Probability of Success: The probability of success is 1/2, and the probability of failure is also 1/2.
+Significance Level: The significance level is 0.05 by default, which means that we will reject the null
+hypothesis if the calculated value of Z is greater than 0.05 or less than -0.05.
+Alternate Hypothesis: An opposing statement to the null hypothesis, stating that the sample statistic
+is unlikely to be from a population with a specific parameter value.
+Confidence Interval: A range of values within which the true parameter is likely to lie, calculated from
+the sample statistic using a confidence interval formula.
+Test Statistic: A value calculated from the sample data that is used to compare the sample statistic
+with the population parameter.

@@ -1,0 +1,22 @@
+1. Z Test:
+The Z test is a statistical test used to compare the sample mean to a population mean when the
+sample size is large (greater than 30). It is an alternative to the T-test for comparing two groups of
+data. The formula for Z test is X-bar / sigma x bar = calculated value, where X-bar represents the
+sample mean and sigma x bar represents the population standard deviation.
+2. Conditions:
+The conditions for applying the Z test are:
+* Large sample size (n > 30)
+* No information on the population standard deviation
+* Comparison of sample mean to a population mean
+3. Formulas:
+The formula for Z test is:
+Z = X-bar / sigma x bar
+Where X-bar represents the sample mean and sigma x bar represents the population standard
+deviation.
+4. Significance Level:
+The significance level for Z test is 0.05, which means there is a 5% chance of rejecting the null
+hypothesis.
+5. Mod:
+Mod (modification) is used to check the calculated value against the tabulated value in the table. If
+the calculated value is smaller than the tabulated value, then the null hypothesis is accepted, and if
+it's bigger, then the alternate hypothesis is rejected.

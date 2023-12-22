@@ -1,0 +1,7 @@
+A Z test is a statistical tool used to compare two sets of data, while a level of significance measures
+the probability that the observed difference between the two sets of data is due to chance rather
+than a real difference. A modified Wilcoxon rank-sum test is a statistical test used to compare two
+sets of data without assuming normality or equal variances. Non-parametric tests are statistical
+techniques used to compare two sets of data without assuming normality or equal variances. An
+alternate hypothesis states that there is a difference between two sets of data, and the Z value is
+calculated as (P1 - P2) / sqrt(N1 + N2).
