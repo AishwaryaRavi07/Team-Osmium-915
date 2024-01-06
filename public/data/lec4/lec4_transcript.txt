@@ -1,0 +1,51 @@
+ Hello students, how are you all? I hope you all are fine. In this video, we are going to discuss the second
+use of z-test. In which type of question can z-test be used more easily? And what is the formula related to
+it? Or we can convert it into an easier formula. In the last video, we saw how to find the number of
+success or how to test for the number of success. Today in this video, we will discuss to test the
+proportion of success. We can also check the proportion of success. We can also check the lower to
+upper limit of success. How much it can fall down and how much its success in the ratio or percentage
+can go up. Let's talk about those things. Welcome to Gate Smashers. My name is Ankit Rodha. Without
+any delay, let's start. First of all, see what formulas we need here. That is SE. Now SE means Standard
+Error of the Mean. What is the meaning of SE? Here we are talking about standard error. We saw this in
+the last video also. Standard error of mean. And you can also say that standard error of the mean of
+success. How much standard error is there in it? There can be an error definitely. Where P is the notation
+for the probability of success. Q is the notation of probability of failure. And N here represents the number
+of samples. That is how many samples we have chosen. And if you want to find the limit in the proportion.
+That is, to find the lower and upper limit. Then we will use the formula P plus minus this. Where P stands
+for the probability of success. Z is the value of Z test. We used to find the value according to the table.
+And if we do not have the level of significance given. Then by default we will take the level of significance.
+Let's check the question. It will be clear. See, the question is. 1000 bulbs purchased from the shop. And
+100 are defective. Estimate the proportion of the defective bulb. What is its proportion? We have to talk
+about the ratio. We have to talk about the percentage. Then assign the limit. That is, take out the lower
+and upper. Let's start. If I have a sample of 1000. Then the logic is that what is the value of N? It is 1000.
+If I have N, then it is 1000. And if I say 100. My P is talking about the probability of success. And if the
+success itself is defective. Then what is the probability of defective? 100 divided by 1000. Which is equal
+to 0.1. So if the probability of success is 0.1. Then the probability of failure is minus 1. 0.9 is there. First of
+all. Let's talk about the error. I will get the error. Square root of. Here we will keep the formula in mind.
+PQ. P is equal to 0.1. Q is equal to 0.9. Divided by N. Where N is 1000. So what is the answer here? 9
+divided by this. That is, the square root of 9 divided by this. Which is equal to 0.12345. This. So let's solve
+its square root once. The value of the square root is 0.0095. Proximate. We solved the square root. Its
+value is 0.0095. Whose value did we get? The value of the standard error. If I talk about the limits here.
+That the lower limit. The proportion of success. Let's talk about the proportion of success. What is the
+lower and upper limit? So what will be the formula? P. Which is the probability of success. Plus minus.
+What will you put as Z? The standard value is 0.05. And what value does Z give at 0.05? 1.96. See the
+table. I uploaded it in the last video too. You will also get the link in the description. And what is the value
+of this now? Standard error. That is multiplied by 0.0095. So 0.1. When you multiply both these numbers.
+The answer will be 0.0186. So once you add both the values. That is 0.1 plus this. It will be 0.1186.
+Right? And once you subtract from 0.1. After subtracting, the exact answer will be 0.0814. Now you are
+talking about the numbers. Now if we change it to percentage. Multiply by 100. Here it will be 8.14%.
+Lower limit came. And here it came 11.86%. That is the proportion of success. Decide its limit. So in Z
+value, today we discussed. Actually, the test Z can also find the proportion of success. Now whether it
+has given two cases, two samples. Or it has given you one sample. And we can also check the
+difference. We can also check the difference of the proportion. That is our next video. In that I will tell you
+the formulas in an easy way. Where we can find the difference. See, our main logic is to do the test. I
+have already told you this. T test, Z test and your chi-square test. You are getting its recorded videos.
+Just to clear the topics. In the recorded lesson, we are clearing the concepts. Because you were facing
+problems in the live. So different types of test. Whatever I am doing, whatever formulas I am doing. We
+will always keep these files in mind. We will always keep these formulas in mind. Formulas and file links.
+You will get all the links in the description box. In today's live class, we are going to discuss. Discussion
+on the sample paper which was launched a few days ago. We will discuss on that. From which portion did
+the part come. And probability and statistics. All the topics we have covered. Out of all of them, I will tell
+you one by one. All the topics we have covered. As it is, all the questions have come. We have done
+everything. We will discuss in today's live class. See you in the next video. We will see the use of one
+more test. Have us. Good day to all of you. Bye-bye. Bye.

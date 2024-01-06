@@ -1,0 +1,94 @@
+ Hello students, how are you all? I hope you all are fine. Today we are going to discuss about T-Test.
+How to find out the difference between the two means. We covered this in the last video also but there we
+covered the difference between two means when I have an independent sample given. Here dependent
+sample is given. In short, we called it unpaired test. What will be called as paired test. So, with example,
+with formulas we will talk about which formulas and how you will use them. So, without any delay, let's
+start. Welcome to Gate Smashers. My name is Ankit Rodha. Let's go to the screen of the laptop. So, now
+see how can T-Test be used? Let's talk about that. In the last video, what we saw was that our samples
+were independent. That means one sample is not different from another sample. What we used to call
+T-Test there? Not dependent sample but independent sample. Where we named distribution as unpaired.
+In a way, we talked about unpaired test. As I have shown you the name of the file. But today in this video,
+we are going to discuss about dependent sample. If one sample depends on another or you can say
+paired T-Test. I have told you the best example of this. If a student is given a medicine at 2 am and
+another dose is given at 3 am. Then the exact check of the second dose is to see what effect it has on his
+body. Which is clear, it will not give exact value. Because the effect of the first medicine will also be on his
+body. So, this is about dependent samples. So, in the case of dependent, always note one thing. T-Test
+will always take only one thing. The value is obvious. We check T-calculated. Less comes from tabulated
+value. So, we give H0 here. That means our hypothesis is accepted. Otherwise, alternate hypothesis.
+That means the claim that the medicine company is doing, we reject it. That its claim is wrong. But always
+remember one thing. As I told you in the live class earlier. That four types of T-Test. Four types of
+questions can come out. For them, I have clearly given you direct formulas. If this type of question comes,
+do this. If this type of question comes, do this. Because many students had a problem in hypothesis. I
+understand that this is not the topic of your line. So, for this, if you think that hypothesis is a little out of
+your understanding. If you can cover this much. If you come to the test of 1 to 2 numbers. Then definitely
+you will cover. So, without any delay, let's start. Today's first formula. Now, it is obvious that we are
+talking about formulas. I will tell you only two questions. I will do one here and show. You will answer me
+in the comment section. The formula is based. Any question comes, all the formulas are based. It says
+that T is equal to. What will it depend on? If dependent sample comes. That is mean of D multiplied by
+root n divided by S. Where D is the difference mean. What is D here? D comes after the difference mean.
+Now I will tell you how to find it. Difference will come after the mean. N is the number of sample. Which I
+have the sample. And S is the standard deviation of the sample. Now how to find the standard deviation
+here? The formula of standard deviation will be. Sqrt . Now the formula will be. Summation of D minus
+mean of D. Sqrt . Where n minus 1 is the degree of freedom. Now do not think that everywhere. Degree
+of freedom will be n minus 1. The next video that will come. There is the degree of freedom n minus 2. So
+for every formula, for every question. I am doing the topic separately. So that you can apply the exact
+formula. And you get the answer from the exam point of view. Now as. Here the question is shown. Let's
+understand the question first. He says that medicine is given to 5 patients and the difference in their
+hemoglobin was recorded to be before drug and after drug. He says that is it reasonable to be given
+medicine to 5 patients and the difference in their hemoglobin is recorded to be before drug and after drug.
+He says that is it reasonable to believe that medicine has no effect on the body. Is it true that medicine is
+affecting the body or not? We have to check whether it is affecting or not. We have data of 5 patients. He
+says that he has not given the drug before the testing of his hemoglobin. After giving the drug. He says
+that the two patients are making a relation. The data is connected to each other. It means that the second
+data is also depending on the first test. If the body had 12 hemoglobin before the medicine, then it
+increased to 13. On an average, we have to check whether it will affect or not. We will use t-test here.
+Because n is less than 30. We do not have standard deviation of the whole population. There were only
+two rules. So first of all, what you have to do here? You have to check the two data given to you. Before
+drug and after drug. Now we will find the difference between these two. After taking the drug, how much
+hemoglobin came? 13. So 13-12 is 1. The second value is minus first. 14-13 is 1. This is known as the
+difference. 14-10 is 4. 13-8 is 5. And 16-7 is 9. So this difference came after taking the medicine. After
+taking the medicine. Now he says that Minus the mean of the drug. So first we will find the D-bar. That is
+summation of D. How much is the summation? 9 plus 5 is 14. Plus 4 is 18. 19 and 20. What is the value
+of D? 20 came after taking the medicine. So D is equal to 20 divided by Total sample is 5. So this is 4.
+Now we will do D-bar in D-minus. So 1-4 is minus 3. 4-4 is 0. 5-4 is 1. 9-4 is 5. Now he says that Let's dothe square of this. Because we need it in the formula. So this is done. Square of 3 is 0. Square of 1 is
+square. Square of 5 is 25. So the answer is 9 plus 1 is 10. 35 plus 9 is 44. This is what we got. Now first
+we will talk about standard deviation. What was the formula of standard deviation? This one. Standard
+deviation says that Sqrt of Whatever our answer is. How much did we get? We got 44 after doing
+addition. So 44 divided by N-1. That means 5-1 is 4. So root 11 is our standard deviation. 3 point
+something. And let's check the exact value of this once. In calculator, Root 11. 3.31 So here what is the
+exact value? 3.31 So I got the answer after coming here. Standard deviation is here. Now we will apply
+t-test. What does t-test say? This is the value of t. It says that whatever the mean of difference we got.
+What did we get? We got 4. This is what we got. What was the value of mean? Yes, 4. Minus, multiplied
+by root of N. How many samples are there? 5. So this is 2.23. The value of standard deviation is 3.31.
+That means the answer is 4 into 2.31. So this is the value of standard deviation. So this is 2.23 divided by
+3.31. Let's check the exact once. In multiply. 4 multiplied by 2.23 divided by 3.31. So this exact value is
+2.70. Now our t-value is 2.70. But keep one thing in mind. This is our t-calculated value. What was the
+value of t-calculated? 2 point. What was the value? 2.70. Now we need t-tabulated value. Now how is
+t-tabulated value? The level of significance is not given. What did I tell you in the last video? Whenever
+there is no level of significance. 0.05 is 5%. And the degree of freedom is 5 minus 1 is 4. So in t-table,
+which I have provided you earlier. So in t-table, what will happen to me? 0.05. Or I will show you on the
+screen once. So that it is clear. No. I will show you the value of t-table. One second. Let's go to t-table. I
+will provide t-table in the description box. 0.05 and 4. Degree of freedom. Which I have attached in the
+last file. You can see from there. The value is 2.776. The value is here. One second. 2.776. Now
+obviously if t-calculated. T-tabulated. Then t-tabulated. So t-tabulated. So t-tabulated. So t-tabulated. So
+t-tabulated. So t-tabulated. If t-tabulated is less than t-tabulation, then our null hypothesis will be
+accepted. Null hypothesis will be accepted. What does this mean? Is it reasonable to believe that
+medicine has no effect on the body? There is no effect. Null hypothesis is correct. Right? So this was our
+first question. Where we only need data and nothing else. I am showing the next question on your screen.
+You will answer it in the comments. It says that you have taken 10 tests. 10 tests taken by the math
+teacher and marks are scored by these. So here the value of n is 10. And in short, the degree of freedom
+is 9. We have data. Now you will say, sir, what happened? This is not a dependent sample. Why is it not
+a dependent sample? It says 10 tests taken by the math teacher and marks are scored by these. 10 tests
+are these. We have to tell that is there any improvement or not? Is there any improvement or not? Now
+when does improve mean that there were 10 marks in the first test and we had 2 marks in the next test?
+There are 10 marks in this question. The marks given in the first test and the marks given in the tenth
+test. The marks given in the middle test are not given by anyone. If he took so many marks in the first test
+and took so many in the tenth test, then what improvement did he do? What improvement did he do in the
+first test and in the last test? Answer me in the comments. T calculated and T tabulated. Tell me how
+much less and what are the values? I hope I am providing formulas. You will get help. Especially those
+who found the hypothesis to be tough. You will clear the topic with a simple example. In the next video, I
+will ask you only one question on formulas. Because here you have to keep the formula in mind. In the
+hypothesis. So see you in the next video where we will see the second use of T test. Where we will talk
+about correlation. See you in the next video. Same time, same place, same day. I hope you liked the
+video. If you liked the video, then do ask questions in the comment section. Definitely reply. Have a good
+day to all of you. Bye. Bye. Bye.
