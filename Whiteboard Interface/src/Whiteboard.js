@@ -53,7 +53,7 @@ function Whiteboard() {
    
 
 const Zoom = async () => {
-  var zoomMeetingUrl = "https://us04web.zoom.us/j/5637999876?pwd=Z2NmNjZXTEtPcVpqM0RjVzhLZEZyUT09";
+  var zoomMeetingUrl = "";
   window.location.href = zoomMeetingUrl;
 };
   
