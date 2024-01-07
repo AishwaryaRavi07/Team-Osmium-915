@@ -57,7 +57,8 @@ We welcome contributions and collaboration. If you would like to contribute to o
 ## Support and Feedback
 For any issues or feedback, please open an [issue](insert_link_to_issues) or reach out to us through our [contact form](insert_link_to_contact_form).
 
-## License
-This project is licensed under the [MIT License](insert_link_to_license).
+## Copyright
+This project is the intellectual property of **Team Osmium-915**. All rights are reserved.
+For permission requests, please contact **Team Osmium-915**.
 
 Thank you for choosing our Smart India Hackathon 2023-winning smartboard solution! We believe in transforming education and empowering learners across India.
