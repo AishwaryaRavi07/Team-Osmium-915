@@ -1,13 +1,7 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC3q1D1PTa0hItOMGfQ83Z4hgUUPukrxlU",
-  authDomain: "osmium-915.firebaseapp.com",
-  projectId: "osmium-915",
-  storageBucket: "osmium-915.appspot.com",
-  messagingSenderId: "288686191481",
-  appId: "1:288686191481:web:e359ee84f237e6823935a8",
-  measurementId: "G-KSXCF5E3V4"
+  // enter your own credentials
 };
 
 const app = firebase.initializeApp(firebaseConfig);
