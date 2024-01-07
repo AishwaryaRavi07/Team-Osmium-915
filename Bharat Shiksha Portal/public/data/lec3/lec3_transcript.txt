@@ -1,0 +1,70 @@
+ Hello students, how are you all? I hope you all are fine. Today in this video we are going to see the first
+use of the Z test. What is the first use of the Z test? I have a total of maximum 3, most of the use comes
+out. Look, the question can come of any type, but I am telling you the most famous uses so that the
+hypothesis is a little understandable in understanding you. That is, the idea will come that what type of
+question can come out with us. So welcome to gate smashers, my name is Ankit Rodha, without any
+delay, let's start. The first use of the Z test is to find out the number of success. Now the meaning of
+saying number of success is that if you have a question like this in the exam, a coin was thrown and so
+many heads came, is it possible? Test the hypothesis. Is it possible? Has any mischief been done in the
+coin? Is the coin biased or unbiased? A die was thrown, find the probability or check that the probability of
+getting an even number is so much or the number is coming out of 400 times that 4 times. And 300 times
+we got an even number. What is possible? Is there any mischief in the dice? Is the die your unbiased or
+some other kind of die? When questions of this type come out, we check there whether the number of
+success is correct or not. This is the first use. So without any delay, let's start. First of all, what can we put
+a direct formula here? We can put a direct formula here. Look, it is the same formula. I am telling you the
+topics by going around. If you come to the topics, then put this formula exactly and get the answer
+straight. If you do different types of questions on one formula, especially in the test, and you also know
+this thing that hypothesis is the weakest topic for you so far because it is totally the part of the stat. So we
+will understand it very well, we will understand it very lovingly. It says that the value of Z will be what will
+happen here. The formula of Z will come out to be X minus NP divided by square root of NP. You will say
+that sir, I put the same formula by going around, took out the mean, took out the standard deviation and
+put the value of the last one. I put the same formula, I am making it a little easy, I will make it easy in
+every video. Where? What do I have? Observed success. That which will be given to us. What was
+observed? According to the question. Or what is given depending on the situation. N is the number of
+time or number of sample. P is the probability of success and Q is the probability of failure. Simple type of
+formula. Did not understand. The table will be used the same as we did in the last video. Here, first of all,
+let's understand the question, it will be very clear. The question is on your screen. Let's understand the
+words one by one and start writing the values. You have the statement of the question. Now the question
+is, it says that a coin was tossed 500 times. 500 times a coin was tossed. 500 times a coin was tossed.
+And head turns up 400 times. Out of which 400 times it was seen that the head is coming. 400 times it
+was seen that the head is coming. Understand the statement of the question. Test the hypothesis that the
+coin is unbiased. Is this coin unbiased? Check this. Whose question came out? Z test. 500 times are
+being thrown. There is a sample above 30. Okay, do you understand? We have talked about the number
+of successes. Is the coin correct? Is the coin unbiased? Is it biased? Sorry. Right? So here I can say this
+directly. The value of N is 500. And the thing that is being observed is that my head is coming 400 times.
+The probability of the head coming is 1 by 2. That is the probability of success. And the probability of the
+head not coming is 1 by 2. Let's check. The value of Z is Z is equal to X that is 400 minus Np. 500 into 1
+by 2. Which is equal to what? 250. Divide by. Square root of N. N is equal to 500. P is equal to 1 by 2. Q
+is equal to 1 by 2. So the answer is 150 divided by. This will be done. Divide by 4. 4 1s. 4 2s 8. 2 0s. 4 5s.
+So I got 125. Okay. After solving this, we are getting the answer near about. 13.41. 13.41. So we have to
+solve this. So we have to solve this. So we have to solve this. So we have to solve this. So we have to
+solve this. So we have to solve this. 13.41. 10 10s are 100. 12. Near about exact. 13.41. We got the
+answer. Now check this that this is the calculated value of my Z. Okay. It is like the same mode.
+Calculated value. Now if I see the value in the table. Here, what is the level of significance? Here the level
+of significance is not given. So by default, we will take it to 0.05. Now in the last video, I showed you the
+table. There the value of 0.05 was 2 tailed. Now I will show you the third one. Now here the value of 0.05
+is 0.05. So by default, we will take it to 0.05. Now this is the last thing. So we will take this. see the value
+of 2 tailed is 1.96 that means our tabulated value is smaller than this or calculated value is bigger than
+this this means that null hypothesis is rejected what is the direct meaning of rejecting null hypothesis?
+what did we assume in null hypothesis case? what did we assume H node? that our coin is not biased but
+it is biased that means H0 will be rejected H1 will be accepted that means coin is biased there is some
+problem in coin let's understand in next question next question says in 100 throws 6 faces die 100 times a
+die is thrown even if even points appear 80 times even number is not taken as 80 times so 80 times even
+number is coming out of 100 would you say that die is fair of 5% of the level of significance? at 5% if levelof significance is 5% then is this die correct? is there any problem in this? let's check first of all here if I
+select null hypothesis what will be my null hypothesis? number of even number you can say and number
+of odd here I will check statement again what statement is saying? we would say that die is fair of 5% so
+what will our null hypothesis say? yes these two are equal right? what will our alternate hypothesis say?
+these two are not equal now we have to check test first of all how many pieces of sample was taken? or
+how many die was thrown? 100 100 die was thrown 80 I am getting even success and failure in one die
+coming even and coming odd what happens? P that is 1 by 2 Q that is 1 by 2 P is 1 by 2 and Q is 1 by 2
+coming even and coming odd 3 are even and 3 are odd so now let's find value of Z Z is here X which is
+observed 80 minus N into P 100 into 1 by 2 that is 50 divided by square root of N P Q how much is N?
+100 P is 1 by 2 Q is 1 by 2 so this answer is 30 divided by 100 by 4 25 and what is the root of 25? how
+much is 5? 6 so calculated value of Z we have 6 and if I check value of Z at 0.05 now we have 5% of level
+of significance now we have checked 5% of level of significance now we have checked how much is it?
+1.96 so calculated value has increased from your tabulated value so null hypothesis will be rejected
+means yes there is something in the die in the coin there is something in the die it is not a fair die so I
+hope you understood its first use understood the formula knowing that I focused on recorded lessons in
+the test specially for these type of questions in the next video a new formula will be there in the next video
+we will see a new formula new use I hope you liked the video so like and subscribe and share see you in
+the next video same time same place next day have a good day to all of you bye bye

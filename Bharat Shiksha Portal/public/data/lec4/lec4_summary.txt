@@ -1,0 +1,39 @@
+Summaries:
+1. Z-Test:
+Z-test is a statistical test used to determine whether two samples have different proportions of
+success or failure. It compares the sample proportion to a standard normal distribution with a mean
+of 0 and a standard deviation of 1, which represents the error in the measurement. The formula for
+Z-test is:
+P + (1 - P) \* Z = (1 - P) \* Z
+Where P is the proportion of success in the sample, and Z is the standard error of the mean.
+2. Standard Error of the Mean (SEM):
+Standard Error of the Mean (SEM) is a measure of the variability of the sample mean. It represents
+the range within which the true population mean lies with a certain degree of confidence. The
+formula for SEM is:
+SE = sqrt(P \* (1 - P)) / N
+Where N is the number of samples, and P is the proportion of success in the sample.
+3. Proportion of Success:
+The proportion of success refers to the percentage or ratio of successful outcomes in a given
+sample. It can be calculated using the following formula:
+Proportion = (Number of successes / Total number of samples) x 100%
+4. Lower and Upper Limits:
+Lower and upper limits are used to determine the range within which the true population mean lies
+with a certain degree of confidence. The lower limit is the minimum value of the sample proportion
+that can be used to estimate the population mean, while the upper limit is the maximum value of the
+sample proportion that can be used to estimate the population mean.
+5. Chi-Square Test:
+Chi-square test is a statistical test used to determine whether two samples have different
+proportions of success or failure. It compares the observed frequencies in each sample to the
+expected frequencies under a null hypothesis of independence. The formula for chi-square test is:
+Observations - Expected Frequencies = Chi-Square Statistic
+Where observations are the number of successes in each sample, and expected frequencies are
+the proportion of success in each sample.
+6. Proportion of Failure:
+The proportion of failure refers to the percentage or ratio of unsuccessful outcomes in a given
+sample. It can be calculated using the following formula:
+Proportion = (Number of failures / Total number of samples) x 100%
+7. Sample Size:
+Sample size refers to the number of observations or data points used to estimate a populationparameter. It is an important factor in statistical analysis as it affects the precision of the estimates
+and the level of confidence associated with them. The formula for sample size is:
+N = (Number of observations / (Total number of samples \* Sample proportion))
+Where N is the sample size, and P is the proportion of success in the sample.

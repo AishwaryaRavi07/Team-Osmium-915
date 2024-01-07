@@ -1,0 +1,18 @@
+/* Add this CSS to your stylesheet or component */
+
+/* Flex container for Resources component */
+.resources-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  /* Style for each ResourceCard */
+  .card {
+    width: calc(33.333% - 30px); /* 30px is the total margin (15px on each side) */
+    margin: 95px;
+  }
+  
