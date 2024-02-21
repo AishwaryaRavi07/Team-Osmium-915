@@ -1,0 +1,2 @@
+
+The video discusses the use of T-Test and standard deviation in statistical analysis, covering the formulas for calculating t-values and standard deviation. The speaker provides real-world examples to illustrate how to apply these concepts and addresses common questions and misconceptions. The video emphasizes the importance of understanding the context and assumptions of t-tests and standard deviation in order to apply them correctly.
