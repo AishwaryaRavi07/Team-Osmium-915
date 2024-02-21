@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@google-cloud/documentai": "^8.2.0"
+  }
+}

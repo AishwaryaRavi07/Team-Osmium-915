@@ -2,10 +2,18 @@
   <h1>Smart India Hackathon 2023 - Team Osmium-915 🏆 </h1>
 
 
-<img src="Bharat Shiksha Portal/public/SIH2023-Grand-Finale.png" alt="SIH-TechTeds" width="900" height="260">
+<img src="Bharat Shiksha Portal/public/SIH2023-Grand-Finale.png" alt="SIH-TechTeds" width="1200" height="260">
 
 ## Introduction
-**Osmium-915** presents to you the most cost-effective smartboard in the market, proudly #madeinindia, achieving an impressive 81% reduction in cost. Our smartboard is a game-changer, with a starting price of just Rs. 22,300/-. This innovative solution, developed for Smart India Hackathon 2023 (PS ID: 1430), combines cutting-edge hardware and software features to revolutionize the teaching and learning experience.
+**Osmium-915** presents to you the most cost-effective smartboard in the market, proudly **#madeinindia**, achieving an impressive 81% reduction in cost. Our smartboard is a game-changer, with a starting price of just **Rs. 22,300/-**. This innovative solution, developed for **Smart India Hackathon 2023** (**PS ID: 1430**), combines cutting-edge hardware and software features to revolutionize the teaching and learning experience.
+<br>
+</br>
+**PPT Link** : https://drive.google.com/file/d/1NSP4qgAmZ9LAflwMZDV2za_IbgXJoPAl/view?usp=sharing
+
+## Flowchart
+<div align="center">
+<img src="Bharat Shiksha Portal/public/flowchart (2).jpeg" alt="SIH-TechTeds" width="1000" height="500">
+</div>
 
 ## Hardware Features
 1. **43 Inches LED Display:** Providing a clear and immersive visual experience.
