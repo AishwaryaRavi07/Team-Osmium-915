@@ -5,8 +5,8 @@ import jsPDF from "jspdf";
 import { useReactMediaRecorder } from "react-media-recorder-2";
 import canvasScreenshot from "canvas-screenshot";
 import { app, storage, storageRef } from "./firebaseConfig";
-import { ref, uploadBytes } from "firebase/storage";
-import { DrawIoEmbed,} from "react-drawio";
+import { ref, uploadBytes,getDownloadURL } from "firebase/storage";
+import { DrawIoEmbed} from "react-drawio";
 
 function Whiteboard() {
   const pdf = new jsPDF();
@@ -29,14 +29,23 @@ function Whiteboard() {
 
   const handleDownload = async () => {
     try {
-      const link = document.createElement("a");
-      link.href = mediaBlobUrl;
-      link.download = "recording.mp4";
-      link.click();
+      stopRecording();
+      // const link = document.createElement("a");
+      // link.href = mediaBlobUrl;
+      // link.download = "recording.mp4";
+      // link.click();
 
       const videoRef = ref(storageRef, "recordings/recording.mp4");
-      const blob = new Blob([link.href]);
+      const blob = new Blob([recordingStream], { type: "video/mp4" });
       await uploadBytes(videoRef, blob);
+      const downloadURL = await getDownloadURL(videoRef);
+
+      setDownloadLink(downloadURL);
+
+      const link = document.createElement("a");
+      link.href = downloadURL;
+      link.download = "recording.mp4";
+      link.click();
 
       
     } catch (error) {
