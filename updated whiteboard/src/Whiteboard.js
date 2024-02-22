@@ -17,7 +17,10 @@ function Whiteboard() {
   const mediaRecorderRef = useRef(null);
   const [downloadLink, setDownloadLink] = useState("");
 
-  const { status, startRecording, stopRecording, mediaBlobUrl } =
+  const { status, startRecording, stopRecording, mediaBlobUrl,pauseRecording,
+    resumeRecording,
+    clearBlobUrl,
+    previewAudioStream, } =
     useReactMediaRecorder({ screen: true, audio: true, video: true });
 
   useEffect(() => {
@@ -30,22 +33,29 @@ function Whiteboard() {
   const handleDownload = async () => {
     try {
       stopRecording();
-      // const link = document.createElement("a");
-      // link.href = mediaBlobUrl;
-      // link.download = "recording.mp4";
-      // link.click();
 
-      const videoRef = ref(storageRef, "recordings/recording.mp4");
+      await new Promise((resolve) => {
+        mediaRecorderRef.current.onStop = resolve;
+      });
+
+      console.log("Video Duration:", mediaRecorderRef.current?.state?.duration);
+
+      const timestamp = new Date().toLocaleString().replace(/[^\w\s]/gi, '');
+      const filename = `recording_${timestamp}.mp4`;
+
+      const link = document.createElement("a");
+      link.href = mediaBlobUrl;
+      link.download = "recording.mp4";
+      link.click();
+
+      const videoRef = ref(storageRef, `recordings/${filename}`);
       const blob = new Blob([recordingStream], { type: "video/mp4" });
       await uploadBytes(videoRef, blob);
       const downloadURL = await getDownloadURL(videoRef);
 
       setDownloadLink(downloadURL);
 
-      const link = document.createElement("a");
-      link.href = downloadURL;
-      link.download = "recording.mp4";
-      link.click();
+      
 
       
     } catch (error) {
@@ -53,30 +63,22 @@ function Whiteboard() {
     }
   };
 
-  const exportasPDF = () => {
-    if (drawioRef.current) {
-      drawioRef.current.exportDiagram({
-        format: 'xmlsvg'
-      });
-    }
-  };
+  
 
   return (
     <>
       <div style={{ display: "flex", height: "9vh" }}>
         <img
-          src="./SIH.jpg"
+          src="./solnpng.png"
           alt="SIH logo"
           style={{
-            transform: "scale(1.75)",
-            marginLeft: "25px",
+            transform: "scale(5)",
+            marginLeft: "8vh",
             height: "30px",
-            marginTop: "10px",
+            marginTop: "15vh",
+            borderRadius: "50%"
           }}
         ></img>
-        <button className="button" onClick={exportasPDF}>
-          Export as PDF
-        </button>
         <button className="button" onClick={startRecording}>
           Start Recording
         </button>
@@ -108,10 +110,9 @@ function Whiteboard() {
               libraries: true,
               
             }}
-            ref={drawioRef}
-            onExport={(data) =>  setImgData(data.data)} 
+            
           />
-          {imgData && <img src={imgData} />}
+          
         </div>
       </div>
     </>
