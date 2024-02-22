@@ -25,7 +25,6 @@ import pathlib
 import os
 from pathlib import Path
 from PyPDF2 import PdfMerger
-from ocr import do_ocr
 
 
 #environment
@@ -34,6 +33,7 @@ import os
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
+from ocr import do_ocr
 
 
 
@@ -72,20 +72,13 @@ async def process(filetype : Annotated[str,Form()],
             shutil.copyfileobj(file.file, buffer)
     
     #do ocr
-    if filetype == "pdf" :
-        do_ocr(global_docs)
-    else :
-        pass
-
-
-    loader = PyPDFLoader("current_active/"+file.filename)
-    data = loader.load_and_split()
+    data = do_ocr(global_docs)
 
     
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=200)
-    context = "\n\n".join(str(p.page_content) for p in data)
 
-    texts = text_splitter.split_text(context)
+
+    texts = text_splitter.split_text(data)
     print(texts)
 
 
@@ -93,8 +86,7 @@ async def process(filetype : Annotated[str,Form()],
     global_vector_index = Chroma.from_texts(texts, embeddings).as_retriever()
 
     prompt_template = """
-    Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
-    provided context just say, "answer is not available in the context", don't provide the wrong answer\n\n
+    Answer the question as detailed as possible from the provided context, make sure to provide all the details\n\n
     Context:\n {context}?\n
     Question: \n{question}\n
 
@@ -118,8 +110,8 @@ async def process(filetype : Annotated[str,Form()],
 async def qna(question : Annotated[str,Form()]) :
     global global_qa_chain, global_vector_index
 
-    question = "what is thermodynamics"
     docs = global_vector_index.get_relevant_documents(question)
+    print(docs)
 
     
     if global_qa_chain is None:
