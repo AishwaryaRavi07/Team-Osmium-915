@@ -109,6 +109,7 @@ async def process(filetype : Annotated[str,Form()],
 @app.post("/qna")
 async def qna(question : Annotated[str,Form()]) :
     global global_qa_chain, global_vector_index
+    print(question)
 
     docs = global_vector_index.get_relevant_documents(question)
     print(docs)

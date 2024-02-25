@@ -7,6 +7,9 @@ import VideoLecs from './VideoLecs';
 import AdminLogin from './AdminLogin';
 import StudentLogin from './StudentLogin';
 import StudentRegister from "./StudentRegister"
+import QNAScript from './QNAScript';
+import Process from './Process'
+import Summary from './Summary';
 
 
 function App() {
@@ -19,6 +22,10 @@ function App() {
       <Route path="/studentreg" element={<StudentRegister/>}/>
       <Route path="/resources" element={<Resources/>}/>
       <Route path="/videolecs" element={<VideoLecs/>}/>
+      <Route path="/qna" element={<QNAScript/>}/>
+      <Route path="/process" element={<Process/>}/>
+      <Route path="/summarize" element={<Summary/>}/>
+
     </Routes>
     
     </>

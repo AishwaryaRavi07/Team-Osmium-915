@@ -16,6 +16,7 @@ function Whiteboard() {
   const [recordingStream, setRecordingStream] = useState(null);
   const mediaRecorderRef = useRef(null);
   const [downloadLink, setDownloadLink] = useState("");
+  
 
   const { status, startRecording, stopRecording, mediaBlobUrl,pauseRecording,
     resumeRecording,
@@ -84,10 +85,7 @@ function Whiteboard() {
         </button>
         <button
           className="button"
-          onClick={() => {
-            stopRecording();
-            handleDownload();
-          }}
+          onClick={handleDownload}
         >
           Stop Screen Recording
         </button>
