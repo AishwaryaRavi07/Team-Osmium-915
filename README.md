@@ -44,7 +44,7 @@
 ## Team Members
 
 
-1. [Amir Zakaria](https://github.com/gotosleepdude)
+1. [Amir Zakaria](https://github.com/huntingcodes-001)
 2. [Aishwarya Ravi](https://github.com/AishwaryaRavi07)
 3. [Aditya Chakraborty](https://github.com/adityachk2002)
 4. [Pranav Janjani](https://github.com/pranavjanjani)
